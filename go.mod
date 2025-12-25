@@ -64,7 +64,7 @@ require (
 	github.com/go-git/gcfg v1.5.0 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
+	github.com/golang/glog v1.2.4 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
