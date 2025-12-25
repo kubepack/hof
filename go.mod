@@ -1,6 +1,6 @@
 module github.com/hofstadter-io/hof
 
-go 1.17
+go 1.23.0
 
 replace cuelang.org/go => github.com/hofstadter-io/cue v0.4.2-rc.1.h1
 
@@ -44,7 +44,7 @@ require (
 	github.com/xanzy/go-gitlab v0.50.3
 	go.uber.org/zap v1.15.0
 	golang.org/x/mod v0.3.1-0.20200828183125-ce943fd02449
-	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/text v0.3.7
 	gopkg.in/errgo.v2 v2.1.0
 	gopkg.in/inconshreveable/log15.v2 v2.0.0-20200109203555-b30bc20e4fd1
@@ -107,7 +107,6 @@ require (
 	golang.org/x/sys v0.0.0-20211103235746-7861aae1554b // indirect
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/ini.v1 v1.57.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
