@@ -1,6 +1,6 @@
 module github.com/hofstadter-io/hof
 
-go 1.17
+go 1.24.0
 
 replace cuelang.org/go => github.com/hofstadter-io/cue v0.4.2-rc.1.h1
 
@@ -43,9 +43,9 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/xanzy/go-gitlab v0.50.3
 	go.uber.org/zap v1.15.0
-	golang.org/x/mod v0.3.1-0.20200828183125-ce943fd02449
+	golang.org/x/mod v0.29.0
 	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
-	golang.org/x/text v0.3.7
+	golang.org/x/text v0.31.0
 	gopkg.in/errgo.v2 v2.1.0
 	gopkg.in/inconshreveable/log15.v2 v2.0.0-20200109203555-b30bc20e4fd1
 	gopkg.in/irc.v3 v3.1.4
@@ -102,9 +102,9 @@ require (
 	github.com/xanzy/ssh-agent v0.2.1 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.5.0 // indirect
-	golang.org/x/crypto v0.0.0-20210920023735-84f357641f63 // indirect
-	golang.org/x/net v0.0.0-20210917221730-978cfadd31cf // indirect
-	golang.org/x/sys v0.0.0-20211103235746-7861aae1554b // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
